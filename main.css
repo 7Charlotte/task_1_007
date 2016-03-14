@@ -1,0 +1,129 @@
+*{margin: 0;padding: 0;}
+#wrap{
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    font-family: "Microsoft YaHei";
+}
+
+/*box0 导航*/
+#box0{
+    height: 57px;
+    /*border: 1px solid #999;*/
+}
+
+#box0 ul{
+    position: absolute;
+    right: 67px;
+    top: 0;
+}
+#box0 ul li{
+    line-height: 56px;
+    list-style: none;
+    float: left;
+    padding: 0 23px;
+    font-size: 14px;
+    color: #797b83;
+    cursor: pointer;
+}
+
+#box0 ul li#selected{
+    color: #e7504d;
+    border-bottom: 5px solid #e7504d;
+}
+
+span#logo{
+    display: inline-block;
+    position: relative;
+    left: 59px;
+    top: 13px;
+}
+#box0 ul li#login{
+    color: #e7504d;
+}
+
+#box0 ul li#login img{
+    vertical-align: -3px;/*vertical-align元素对img和text元素有作用*/
+}
+
+/*box1 开始体验,大图*/
+#box1{
+    height: 690px;
+    background-image: url("images/bg01.jpg");
+    position: relative;
+}
+section#intro{
+    position: relative;
+    left: 118px;
+    top: 234px;
+    color: white;
+}
+
+section#intro h1{
+    font-size: 60px;
+}
+
+section#intro h3{
+    font-size: 21px;
+    line-height: 37px;
+}
+
+section#intro button{
+    width: 330px;
+    height: 65px;
+    background-color: #e7504d;
+    border: none;
+    color: white;
+    font-size: 30px;
+    margin-top: 68px;
+    cursor: pointer;
+}
+
+/*box2 整体介绍*/
+
+#box2{
+    height: 250px;
+    border: 1px solid #999;
+}
+
+#box3{
+    height: 360px;
+    border: 1px solid #999;
+}
+
+#box4{
+    height: 340px;
+    border: 1px solid #999;
+}
+
+#box5{
+    height: 606px;
+    border: 1px solid #999;
+}
+
+#box6{
+    height: 566px;
+    border: 1px solid #999;
+}
+
+#box7{
+    height: 520px;
+    border: 1px solid #999;
+}
+
+#box8{
+    height: 750px;
+    border: 1px solid #999;
+}
+
+#box9{
+    height: 360px;
+    border: 1px solid #999;
+}
+
+#box10{
+    height: 58px;
+    border: 1px solid #999;
+}
+
+
