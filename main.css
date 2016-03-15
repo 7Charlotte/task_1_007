@@ -83,19 +83,72 @@ section#intro button{
 
 #box2{
     height: 250px;
-    border: 1px solid #999;
+}
+#box2 section.box2-feature{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+#box2 section.box2-feature img{
+    padding: 47px 0;
+}
+#box2 section.box2-feature p{
+    width: 160px;
+    margin: 0 auto;
+    font: 14px "SimHei";
+    color: #767777;
 }
 
+/*box3 关于新世界，你不知道还有什么*/
 #box3{
     height: 360px;
-    border: 1px solid #999;
+    background-color: #ededec;
+    text-align: center;
+}
+#box3 img{
+    padding: 90px 0px 54px 0px;
+}
+#box3 p{
+    font:54px 'SimHei';
+    /*font-family: "SimHei";*/
+    color: #333333;
 }
 
+/*box4 dropdownlist*/
 #box4{
     height: 340px;
-    border: 1px solid #999;
+    background: url("images/box5-bg.png") rgba(190,79,72,0.2);/*多样式的background property*/
+
+}
+#box4 p,#box4 h3{
+    color: white;
+    text-align: center;
+    font-size: 21px;
+}
+#box4 h3{
+    padding-top: 53px;
+}
+#box4 p{
+    font-size: 12px;
+    padding: 33px 0px 53px 0px;
 }
 
+#box4 div.select-style{
+    width: 1032px;
+    margin: 0 auto;
+}
+
+#box4 div.select-style select{
+    width: 236px;
+    padding: 10px;
+    border: 1px solid #eee;
+}
+#box4 div.select-style button{
+    width: 236px;
+    height: 36px;
+}
+
+/*第5个盒子*/
 #box5{
     height: 606px;
     border: 1px solid #999;
