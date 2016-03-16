@@ -202,9 +202,24 @@ section#intro button{
 
 }
 
+/*第6个盒子，活动介绍*/
 #box6{
     height: 566px;
-    border: 1px solid #999;
+}
+
+#box6 div.box6-activity-intro{
+    width: 851px;
+    height: inherit;
+    background:url("images/box7-pic.png") no-repeat;  
+    float: left;    
+}
+
+#box6 div.box6-activity-description{
+    display: inline-block;
+    width: 429px;
+    background-color: #999;
+    height: inherit;
+    float: left;  
 }
 
 #box7{
